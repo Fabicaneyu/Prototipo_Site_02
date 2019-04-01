@@ -1,0 +1,77 @@
+.login{
+    text-align: center;
+}
+
+.indexPubli{
+    text-align: center;
+    background-image: url(imagem_fundo.jpg);
+    background-size: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.indexPriv {
+    margin: 0;
+    padding: 0;
+}
+
+.ambientes{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.simulador{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.quem_somos{
+    margin: 0;
+    padding: 0;
+}
+
+/* .fundo_simulador{
+margin-top: 0;
+background-image: url(imagem_fundo.jpg);
+background-size: 100%;
+width: 100%;
+height: 100%;
+position: absolute;
+filter: blur(3px);
+} */
+
+.planilhas{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.textos{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.menu a,.simulador a,.ambientes a,.planilhas a, .quem_somos a, .login a, .indexPriv a, .indexPubli a{
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho{
+    font-size: 20px;
+    border: 1px solid gray; 
+    height: 40px;
+    width: 36.08cm;
+    position: absolute; 
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario{
+    font-size: 20px
+}
